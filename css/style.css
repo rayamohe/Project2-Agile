@@ -21,6 +21,11 @@ img {
   width: 100%;
   height: auto;
 }
+
+.lead {
+
+  font-size: 14px;
+}
   
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
