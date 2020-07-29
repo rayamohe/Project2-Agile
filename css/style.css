@@ -1,13 +1,26 @@
+@font-face {
+  font-family: 'Font-Geogtq';
+  src: url('../font/FontsFree-Net-Geogtq-Rg.otf'); /* IE9 Compat Modes */
+  src: url('../font/FontsFree-Net-Geogtq-Rg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/FontsFree-Net-Geogtq-Rg.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/FontsFree-Net-Geogtq-Rg.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../font/FontsFree-Net-Geogtq-Rg.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../font/FontsFree-Net-Geogtq-Rg.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
 body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color: #5a5a5a;
-  }
-  
+    margin: 0;
+    color: #003c71;
+    font-family: 'Font-Geogtq', Fallback, sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
   
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
@@ -31,14 +44,14 @@ body {
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 32rem;
+    height: auto;
   }
 
   .carousel-indicators li {
     width: 5px;
     height: 5px;
-    background-color:#2ec4b6;
-    border: 5px solid #2ec4b6;
+    background-color:#fff;
+    border: 5px solid #fff;
     border-radius: 20px;
   }
   .carousel-control-next-icon,
@@ -53,6 +66,56 @@ body {
     background-image: url("data:image/svg+xml,<svg viewBox='0 0 32 32' width='64' height='64' fill='none' stroke='White' stroke-linecap='round' stroke-linejoin='round' stroke-width='1px' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M12 30 L24 16 12 2' clip-rule='evenodd'/></svg>");
   }
 
+  .carousel-caption h1, 
+  .carousel-caption p {
+    text-shadow: 1px 2px 5px #003c71;
+  } 
+
+  /* Grid CSS
+-------------------------------------------------- */
+.col-title {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+   /* featurette CSS
+  -------------------------------------------------- */
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.featurette {
+    margin: 0;
+    padding: 50px;
+}
+.featurette-bg {
+  background-color: #d5d5d5;
+}
+
+    /* Buttons CSS
+  -------------------------------------------------- */
+
+  .btn-bcit {
+    border: 1px solid #fff300;
+    background-color: #fff300;
+    border-radius: 10px;
+  }
+
+  .btn-bcit-s {
+    border: 1px solid #013c70;
+    background-color: #fff;
+    border-radius: 1px;
+  }
+
+    /* Footer CSS
+  -------------------------------------------------- */  
+  footer{
+    background-color: #003c71;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+  }
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
@@ -70,20 +133,4 @@ body {
 
   }
 
-      /* bd-placeholder CSS
-  -------------------------------------------------- */
-
-  .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    }
-
-    @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
-    }
+  
