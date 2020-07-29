@@ -37,8 +37,8 @@ body {
   .carousel-indicators li {
     width: 5px;
     height: 5px;
-    background-color:#2ec4b6;
-    border: 5px solid #2ec4b6;
+    background-color:#fff;
+    border: 5px solid #fff;
     border-radius: 20px;
   }
   .carousel-control-next-icon,
@@ -53,6 +53,11 @@ body {
     background-image: url("data:image/svg+xml,<svg viewBox='0 0 32 32' width='64' height='64' fill='none' stroke='White' stroke-linecap='round' stroke-linejoin='round' stroke-width='1px' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M12 30 L24 16 12 2' clip-rule='evenodd'/></svg>");
   }
 
+  .btn-bcit {
+    border: 1px solid #fff300;
+    background-color: #fff300;
+    border-radius: 10px;
+  }
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
