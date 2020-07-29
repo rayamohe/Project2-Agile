@@ -13,7 +13,6 @@
 
 body {
     margin: 0;
-    padding-top: 3rem;
     color: #003c71;
     font-family: 'Font-Geogtq', Fallback, sans-serif;
 }
@@ -45,7 +44,7 @@ img {
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 32rem;
+    height: auto;
   }
 
   .carousel-indicators li {
@@ -66,6 +65,11 @@ img {
   .carousel-control-next-icon {
     background-image: url("data:image/svg+xml,<svg viewBox='0 0 32 32' width='64' height='64' fill='none' stroke='White' stroke-linecap='round' stroke-linejoin='round' stroke-width='1px' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M12 30 L24 16 12 2' clip-rule='evenodd'/></svg>");
   }
+
+  .carousel-caption h1, 
+  .carousel-caption p {
+    text-shadow: 1px 2px 5px #003c71;
+  } 
 
   /* Grid CSS
 -------------------------------------------------- */
@@ -129,20 +133,4 @@ img {
 
   }
 
-    /* bd-placeholder CSS
-  -------------------------------------------------- */
-
-  .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    }
-
-    @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
-    }
+  
