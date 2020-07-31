@@ -22,10 +22,7 @@ img {
   height: auto;
 }
 
-.lead {
 
-  font-size: 14px;
-}
   
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
@@ -83,6 +80,13 @@ img {
   width: 100%;
   height: 100%;
 }
+
+  /* Font for introduction
+  -------------------------------------------------- */
+  .lead {
+
+    font-size: 14px;
+  }
 
    /* featurette CSS
   -------------------------------------------------- */
