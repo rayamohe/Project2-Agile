@@ -143,3 +143,59 @@ img {
   }
 
   
+/* About CSS
+-------------------------------------------------- */
+
+  /* Vertical Nav
+  -------------------------------------------------- */
+  
+  .ver-nav {
+    margin-top: 1.5rem;
+    border-top: 5px solid #ffef3c;
+  }
+
+  .ver-nav-link {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .active-link {
+    font-weight: bold;
+  }
+
+  /* Margins
+  -------------------------------------------------- */
+
+  .main-margin {
+    margin-top: 2rem;
+  }
+
+  .article-margin {
+    margin-top: 4rem;
+  }
+
+  .margin-bot {
+    margin-bottom: 2rem;
+  }
+
+  /* Customized Breadcrumb
+  -------------------------------------------------- */
+
+  .breadcrumb-cus {
+    float: right;
+  }
+
+  .breadcrumb-cus > a {
+    text-decoration: none;
+  }
+
+  /* Floating Images
+  -------------------------------------------------- */
+
+  .float-left {
+    float: left;
+    margin-right: 0.8rem;
+  }
+
+  .float-right {
+    float: right;
+  }
