@@ -125,6 +125,11 @@ img {
     height: 100%;
     color: #fff;
   }
+
+  .footer_img {
+    height: 24px;
+    width: 56px;
+  }
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
@@ -158,7 +163,7 @@ img {
     border-bottom: 1px solid #ccc;
   }
 
-  .active-link {
+  .bold-text {
     font-weight: bold;
   }
 
@@ -198,7 +203,21 @@ img {
 
   .float-right {
     float: right;
+    margin-left: 0.8rem;
   }
+
+  /* Resizing Images
+  -------------------------------------------------- */
+
+  .about_img {
+    max-width: 800px;
+  }
+
+  .history_img {
+    height: 200px;
+    width: 200px;
+  }
+
   /* LOGIN CSS
   -------------------------------------------------- */
   #loginpage{
