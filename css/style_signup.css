@@ -1,0 +1,59 @@
+body {
+    background-image: url(../img/Story2_BG\ for\ log\ in\ page.png);
+    background-size: cover;
+}
+
+hr {
+    border-top: none;
+}
+
+.heading {
+    color: #023e8a;
+    font-size: 3rem;
+}
+
+.logo {
+    width: 150px;
+    overflow: hidden;
+    position: inherit;
+}
+
+.row {
+    background-color: #495057;
+}
+
+.container {
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-thumbnail {
+    float: left;
+    padding: 0;
+    border-radius: 0px;
+    left: -15px;
+}
+
+.btn-color {
+    background-color: #fff300;
+}
+
+.icon_color {
+    color: #0466c8;
+}
+
+.sign-in {
+    font-size: 1rem;
+}
+
+
+/* media query */
+
+
+/* @media(max-width:576px) {
+    .row {
+        width: 131%;
+    }
+} */
