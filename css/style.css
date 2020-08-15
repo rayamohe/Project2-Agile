@@ -272,7 +272,7 @@ img {
   text-align: right;
 }
 .login a {
- margin-left:130px;
+ margin-left:140px;
 }
 
 .login-help {
@@ -290,15 +290,15 @@ img {
  padding-right: 145px;
 }
 
-.login input {
+#loginpage input {
   font-family:'Font-Geogtq', Fallback, sans-serif;
   font-size: 14px;
 }
 
-.login input[type=text], .login input[type=password] {
+#loginpage input[type=text], #loginpage input[type=password] {
   margin: 10px;
   padding: 0 10px;
-  width: 500px;
+  width: 400px;
   height: 45px;
   color: #404040;
   background: white;
@@ -309,13 +309,13 @@ img {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
 }
 
-.login input[type=text]:focus, .login input[type=password]:focus {
+#loginpage input[type=text]:focus, #loginpage input[type=password]:focus {
   border-color: #7dc9e2;
   outline-color: #dceefc;
   outline-offset: 0;
 }
 
-.login input[type=submit] {
+#loginpage input[type=submit] {
   padding: 0 30px;
   height: 42px;
   font-size: 14px;
@@ -335,8 +335,20 @@ img {
   line-height: 34px;
 }
 
-/* Container Industry SignUp */
-.logo-box {
+/* Container Industry Profile */
+.login-box {
+  width: 700px;
+  height:350px;
+}
+.industry-logo {
   width: 50px;
   height: 50px;
+}
+.logo {
+  width: 150px;
+  overflow: hidden;
+  position: inherit;
+}
+.bg-darkblue {
+  background-color: #003c71;;
 }
