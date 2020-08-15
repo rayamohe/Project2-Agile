@@ -412,12 +412,20 @@ img {
 
 #search-button {
 
-  margin-left: 5px;
-  padding-left: 100px;
-  padding-right: 100px;
+  margin-left: -15px;
+  padding-left: 98px;
+  padding-right: 98px;
 }
  #btn-filter-search{
 
-  margin-left:115px;
+  margin-left: 100px;
 
  }
+
+ .profile-pic {
+
+  width: auto;
+  height: 325px;
+  margin-left: 60px;
+ }
+      
