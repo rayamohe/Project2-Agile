@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+
+  <title></title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous">
+
+  <!-- Styles for this page -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+        <img src="img/british-columbia-institute-of-technology-bcit-vector-logo.png" style="width: 180px; height: 100px;">
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Meet the team</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <a href="login.html" class="btn btn-dark my-2 my-sm-0 mr-2" role="button">Log in</a>
+          <button class="btn btn-outline-dark btn-outline-bcit my-2 my-sm-0" type="submit">Sign up</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Banner Header -->
+  <div class="mainBanner">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-lg-12">
+        <h1 class="display-4 text-white mt-5 mb-2">Meet our students.</h1>
+        <p class="lead mb-5 text-white-50">
+          <br>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Page Content -->
+  <div class="search-container">
+<br>
+    <div class="search-form">
+      <h2>Search New Media student profiles</h2>
+      <p class="hint-text">
+
+        <br>
+      </p>
+      <form id="search">
+        <div class="form-group">
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-xs-6">
+              <input type="text" class="form-control" name="full_name" placeholder="Full Name">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-xs-6">
+              <input type="text" class="form-control" name="location" placeholder="Location">
+            </div>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="input-group" id="boot-search-box">
+
+
+
+                    <div class="input-group-btn">
+                      <!-- Search button within advanced search button -->
+
+                      <a href="profiles.html" class="btn btn-dark my-2 my-sm-0 mr-2" role="button" id="search-button">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>Search</a>
+                      <div class="btn-group" role="group">
+
+                        <!-- filter drop down button -->
+                        <div class="dropdown dropdown-lg">
+                          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" id="btn-filter-search">Filter search
+                          </button>
+                          <div class="dropdown-menu dropdown-menu-right" role="menu">
+                            <form class="form-horizontal" role="form">
+
+
+                              <!-- area of focus drop down -->
+                              <div class="form-group">
+                                <label for="filter">Area of focus:</label>
+                                <select class="form-control" id="dropdown-menu">
+                                  <option value="Web Development">Web Development</option>
+                                  <option value="Graphic Design">Graphic Design</option>
+                                  <option value="Motion Graphics">Motion Graphics</option>
+                                  <option value="Film">Most Popular</option>
+                                  <option value="Digital Photography">Digital Photography</option>
+                                </select>
+                              </div>
+
+                              <!-- Industry knowledge checkboxes -->
+                              <label for="filter">Industry Knowledge:</label>
+                              <br>
+                              <div>
+                                <label class="checkbox-inline">
+                                  <input type="checkbox"> Project Management
+                                </label>
+                                <label class="checkbox-inline">
+                                  <input type="checkbox"> Web Development
+                                </label>
+                                <label class="checkbox-inline">
+                                  <input type="checkbox"> Graphic Design
+                                </label>
+
+                                <div>
+                                  <label class="checkbox-inline">
+                                    <input type="checkbox"> Photography
+                                  </label>
+
+                                  <label class="checkbox-inline">
+                                    <input type="checkbox"> Social Media
+                                  </label>
+                                  <label class="checkbox-inline">
+                                    <input type="checkbox"> Illustrations
+                                  </label>
+                                  <label class="checkbox-inline">
+                                    <input type="checkbox"> Film and Audio
+                                  </label>
+
+                                </div>
+
+                                <br>
+
+                                <!-- Tools and technology checkboxes -->
+                                <div class="form-group">
+                                  <label for="contain">Tools and Technology:</label>
+                                  <br>
+                                  <div>
+                                    <label class="checkbox-inline">
+                                      <input type="checkbox"> Adobe Suite
+                                    </label>
+                                    <label class="checkbox-inline">
+                                      <input type="checkbox"> Azure
+                                    </label>
+                                    <label class="checkbox-inline">
+                                      <input type="checkbox"> React
+                                    </label>
+                                    <label class="checkbox-inline">
+                                      <input type="checkbox"> Node JS
+                                    </label>
+                                  </div>
+                                </div>
+                            </form>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- End of container for search -->
+
+            </button>
+          </div>
+      </form>
+
+      </div>
+    </div>
+
+    <!-- End of container for search -->
+
+
+
+
+
+    <!-- ************************** -->
+    <!--  student profile container -->
+    <!-- ************************** -->
+    <div class="container my-5" id="student-container">
+
+
+      <!--Section: Content-->
+      <section class="team-section text-center dark-grey-text">
+
+        <!-- Section heading -->
+        <hgroup class="mb20">
+          <h1>Search Results</h1>
+          <h2 class="lead">
+            <strong class="text-danger">6</strong> results were found.
+          </h2>
+        </hgroup>
+        <!-- Section description -->
+        <br>
+        <br>
+        <br>
+
+        <!-- Grid row-->
+        <div class="row text-center text-md-left">
+
+          <!-- Grid column -->
+          <div class="col-md-12 mb-5 d-md-flex">
+
+            <!-- Student profile #1 -->
+            <div class="avatar mb-md-0 mb-12 mx-12">
+              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg" class="rounded-circle z-depth-1" alt="Sample avatar">
+            </div>
+            <div class="mx-4">
+
+              <!-- contet for profile  -->
+              <h4 class="font-weight-bold mb-3">John Doe</h4>
+              <h6 class="font-weight-bold grey-text mb-3">Web Designer</h6>
+              <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.
+              </p>
+              <!--Linkedin -->
+              <a type="button" class="btn-floating btn-sm mx-1 mb-0 btn-li">
+                <i class="fab fa-linkedin-in "></i>
+              </a>
+              </a>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+
+
+          <!-- student profile #2 -->
+          <div class="col-md-12 mb-5 d-md-flex">
+            <div class="avatar mb-md-0 mb-12 mx-12">
+              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="rounded-circle z-depth-1" alt="Sample avatar">
+            </div>
+            <div class="mx-4">
+
+              <!-- contet for profile  -->
+              <h4 class="font-weight-bold mb-3">Maria Kate</h4>
+              <h6 class="font-weight-bold grey-text mb-3">Photographer</h6>
+              <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.
+              </p>
+              <!--Linkedin -->
+              <a type="button" class="btn-floating btn-sm mx-1 mb-0 btn-li">
+                <i class="fab fa-linkedin-in "></i>
+              </a>
+            </div>
+          </div>
+          <!-- Grid column -->
+        </div>
+
+
+
+        <div class="row text-center text-md-left">
+
+          <!-- Profile student #3 -->
+          <div class="col-md-12 mb-5 d-md-flex">
+            <div class="avatar mb-md-0 mb-12 mx-12">
+              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg" class="rounded-circle z-depth-1" alt="Sample avatar">
+            </div>
+            <div class="mx-4">
+
+              <!-- contet for profile  -->
+              <h4 class="font-weight-bold mb-3">John Doe</h4>
+              <h6 class="font-weight-bold grey-text mb-3">Web Designer</h6>
+              <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.
+              </p>
+              <!--Linkedin -->
+              <a type="button" class="btn-floating btn-sm mx-1 mb-0 btn-li">
+                <i class="fab fa-linkedin-in "></i>
+              </a>
+            </div>
+          </div>
+
+
+          <!-- Student prfile #4 -->
+          <div class="col-md-12 mb-5 d-md-flex">
+            <div class="avatar mb-md-0 mb-12 mx-12">
+              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="rounded-circle z-depth-1" alt="Sample avatar">
+            </div>
+            <div class="mx-4">
+
+
+              <!-- contet for profile  -->
+              <h4 class="font-weight-bold mb-3">Maria Kate</h4>
+              <h6 class="font-weight-bold grey-text mb-3">Photographer</h6>
+              <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.
+              </p>
+              <!--Linkedin -->
+              <a type="button" class="btn-floating btn-sm mx-1 mb-0 btn-li">
+                <i class="fab fa-linkedin-in "></i>
+              </a>
+            </div>
+          </div>
+          <!-- Grid column -->
+        </div>
+
+
+        <!-- Grid row-->
+        <div class="row text-center text-md-left">
+
+          <!-- Student profile #5 -->
+          <div class="col-md-12 mb-5 d-md-flex">
+            <div class="avatar mb-md-0 mb-12 mx-12">
+              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg" class="rounded-circle z-depth-1" alt="Sample avatar">
+            </div>
+            <div class="mx-4">
+
+
+              <!-- contet for profile  -->
+              <h4 class="font-weight-bold mb-3">John Doe</h4>
+              <h6 class="font-weight-bold grey-text mb-3">Web Designer</h6>
+              <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.
+              </p>
+              <!--Linkedin -->
+              <a type="button" class="btn-floating btn-sm mx-1 mb-0 btn-li">
+                <i class="fab fa-linkedin-in "></i>
+              </a>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+
+
+          <!-- student profile #6 -->
+          <div class="col-md-12 mb-5 d-md-flex">
+            <div class="avatar mb-md-0 mb-12 mx-12">
+              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="rounded-circle z-depth-1" alt="Sample avatar">
+            </div>
+            <div class="mx-4">
+
+
+              <!-- contet for profile  -->
+              <h4 class="font-weight-bold mb-3">Maria Kate</h4>
+              <h6 class="font-weight-bold grey-text mb-3">Photographer</h6>
+              <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.
+              </p>
+              <!--Linkedin -->
+              <a type="button" class="btn-floating btn-sm mx-1 mb-0 btn-li">
+                <i class="fab fa-linkedin-in "></i>
+              </a>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+    <!--Section: Content-->
+
+
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer class="pt-4 pb-4 pt-md-5 border-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md">
+          <!-- <img src="holder.js/24x24" class="card-img-top img-fluid" alt="..."> -->
+          <img src="img/footer_logo1.png" class="card-img-top img-fluid footer_img" alt="...">
+          <small class="d-block mb-3 text-white-50">&copy; 2020</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <a class="text-white-50" href="#">Cool stuff</a>
+            </li>
+            <li>
+              <a class="text-white-50" href="#">Random feature</a>
+            </li>
+            <li>
+              <a class="text-white-50" href="#">Team feature</a>
+            </li>
+            <li>
+              <a class="text-white-50" href="#">Stuff for developers</a>
+            </li>
+            <li>
+              <a class="text-white-50" href="#">Another one</a>
+            </li>
+            <li>
+              <a class="text-white-50" href="#">Last time</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <a class="text-white-50" href="#">Resource</a>
+            </li>
+            <li>
+              <a class="text-white-50" href="#">Resource name</a>
+            </li>
+            <li>
+              <a class="text-white-50" href="#">Another resource</a>
+            </li>
+            <li>
+              <a class="text-white-50" href="#">Final resource</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <a class="text-white-50" href="#">Team</a>
+            </li>
+            <li>
+              <a class="text-white-50" href="#">Locations</a>
+            </li>
+            <li>
+              <a class="text-white-50" href="#">Privacy</a>
+            </li>
+            <li>
+              <a class="text-white-50" href="#">Terms</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/holder.js"></script>
+</body>
+
+</html>

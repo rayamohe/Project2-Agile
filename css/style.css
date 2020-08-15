@@ -352,3 +352,72 @@ img {
 .bg-darkblue {
   background-color: #003c71;;
 }
+
+/* CSS for profiles */
+
+#search {
+
+  margin: auto auto;
+  width: 43%;
+}
+
+.search-form {
+
+  text-align: center;
+
+}
+
+
+.student-profiles {
+
+  width:100%;
+  margin: auto auto;
+ 
+ }
+ 
+ #student-container {
+ 
+   margin: auto auto;
+ 
+ }
+ 
+ 
+ hgroup { padding-left: 15px; border-bottom: 1px solid #ccc; }
+ hgroup h1 { font: 500 normal 1.625em "Roboto",Arial,Verdana,sans-serif; color: #2a3644; margin-top: 0; line-height: 1.15; }
+ hgroup h2.lead { font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; color: #2a3644; margin: 0; padding-bottom: 10px; }
+ 
+ .dropdown.dropdown-lg .dropdown-menu {
+   margin-top: -1px;
+   padding: 4px 15px;
+ }
+ 
+ .btn-group .btn {
+   border-radius: 0;
+   margin-left: -1px;
+ }
+ .form-horizontal .form-group {
+   margin-left: 0;
+   margin-right: 0;
+ }
+ 
+ #dropdown-menu {
+ 
+   width:350px; 
+ }
+
+ .mainBanner {
+
+  background-image: url("../img/search_banner.jpg");
+ }
+
+#search-button {
+
+  margin-left: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+ #btn-filter-search{
+
+  margin-left:115px;
+
+ }
