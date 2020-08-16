@@ -435,16 +435,21 @@ img {
   height: 100%; 
   margin: 0 auto;
   position: relative;
+  padding-top: 65px;
+  box-sizing: border-box;
 }
 
 .job-posting-header {
   border-left: 2px solid #003c71;
   border-bottom: 1px solid rgb(204, 204, 204);
   width: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .job-posting-list {
-  height: 800px; 
+  height: 100%; 
   width: 40%;
 }
 
@@ -453,7 +458,7 @@ img {
 }
 
 .job-posting-content {
-  height: 800px; 
+  height: 100%; 
   width: 56%; 
   position: absolute; 
   top: 0; 
